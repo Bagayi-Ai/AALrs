@@ -1,0 +1,10 @@
+digraph DFA {
+    "";
+    "a" [shape=doublecircle];
+    __start__ [shape=point];
+    __start__ -> "" [label = ""];
+    "" -> "" [label = "b"];
+    "" -> "a" [label = "a"];
+    "a" -> "" [label = "a"];
+    "a" -> "a" [label = "b"];
+}
